@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    text-decoration: none;
+}
+*::after,::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--c-1);
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+:root{
+    --c-1:#26e626;
+    --c-2:#111111;
+    --c-3:#FF5C95;
+
+}
+

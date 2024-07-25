@@ -1,0 +1,92 @@
+.cont-general-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 90px;
+    background-color: var(--c-2);
+    border-bottom: 0px solid var(--c-3);
+    position: fixed;
+    transition: .3s;
+}
+
+.cont-logo {
+    display: flex;
+    align-items: center;
+    user-select: none;
+}
+/* texto Lyon */
+.cont-logo h2 {
+    margin-left: 15px;
+  
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 700;
+    font-size: 40px;
+    color: var(--c-1);
+}
+
+/* texto Lyon */
+
+/* logo Lyon */
+
+.cont-logo img {
+    display: flex;
+    justify-content: center;
+    margin-left: 15px;
+    width: 65px;
+    height: 65px;
+    
+}
+
+/* logo Lyon */
+
+/* links */
+
+
+.nav-ul{
+    display: flex;
+    margin-right: 40px;
+}
+.nav-li{
+    list-style: none;
+}
+
+.nav-a {
+    position: relative;
+    margin: 15px;
+    font-size: 16px;
+    list-style: none;
+    text-decoration: none;
+    user-select: none;
+    color: var(--c-1);
+    text-transform: uppercase;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 600;
+    letter-spacing: .5px;
+    padding: 0 5px;
+}
+
+.nav-a:hover{
+    color: var(--c-3);
+    transition: .3s;
+}
+.nav-a::after{
+    content: "";
+    position: absolute;
+    background-color: var(--c-3);
+    height: 3px;
+    width: 0%;
+    left: 0;
+    top: 30px;
+    transition: .3s;
+
+}
+.nav-a:hover::after{
+    width: 100%;
+    transition: .3s;
+    color: var(--c-3);
+}
+
+
+
+/* links */
